@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginFragID"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/serverHostLabel"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:text="@string/Server_Host"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/serverHost"
+            android:layout_width="281dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/serverPortLabel"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:text="@string/Server_Port"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/serverPort"
+            android:layout_width="281dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:ignore="DuplicateIds" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/usernameLabel"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:text="@string/Username"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="281dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/passwordLabel"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:text="@string/Password"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="281dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:ignore="TextFields" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/firstNameLabel"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:text="@string/First_Name"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="281dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lastNameLabel"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:text="@string/Last_Name"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="281dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/emailLabel"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:text="@string/Email"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="281dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:ignore="TextFields" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="126dp"
+            android:layout_height="match_parent"
+            android:text="@string/Gender"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/genderMale"
+                android:layout_width="128dp"
+                android:layout_height="match_parent"
+                android:text="@string/Male" />
+            <RadioButton
+                android:id="@+id/genderFemale"
+                android:layout_width="139dp"
+                android:layout_height="77dp"
+                android:text="@string/Female" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Login" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Register" />
+</LinearLayout>
+
+</LinearLayout>

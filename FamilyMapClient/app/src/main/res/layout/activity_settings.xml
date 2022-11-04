@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/lifeStory"
+                android:layout_width="252dp"
+                android:layout_height="41dp"
+                android:layout_weight="1"
+                android:text="Life Story Lines\nSHOW LIFE STORY LINES" />
+
+            <Switch
+                android:id="@+id/lifeStorySwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/familyTree"
+                android:layout_width="252dp"
+                android:layout_height="41dp"
+                android:layout_weight="1"
+                android:text="Family Tree Lines\nSHOW FAMILY TREE LINES" />
+
+            <Switch
+                android:id="@+id/familyTreeSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/spouse"
+                android:layout_width="252dp"
+                android:layout_height="41dp"
+                android:layout_weight="1"
+                android:text="Life Spouse Lines\nSHOW SPOUSE LINES" />
+
+            <Switch
+                android:id="@+id/spouseSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/father"
+                android:layout_width="252dp"
+                android:layout_height="41dp"
+                android:layout_weight="1"
+                android:text="Father's Side\nFILTER BY FATHER'S SIDE OF FAMILY" />
+
+            <Switch
+                android:id="@+id/fatherSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mother"
+                android:layout_width="252dp"
+                android:layout_height="41dp"
+                android:layout_weight="1"
+                android:text="Mother's Side\nFILTER BY MOTHER'S SIDE OF FAMILY" />
+
+            <Switch
+                android:id="@+id/motherSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/male"
+                android:layout_width="252dp"
+                android:layout_height="41dp"
+                android:layout_weight="1"
+                android:text="Male Events\nFILTER EVENTS BASED ON GENDER" />
+
+            <Switch
+                android:id="@+id/maleSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/female"
+                android:layout_width="252dp"
+                android:layout_height="41dp"
+                android:layout_weight="1"
+                android:text="Female Events\nFILTER EVENTS BASED ON GENDER" />
+
+            <Switch
+                android:id="@+id/femaleSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout\nRETURN TO LOGIN SCREEN" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
